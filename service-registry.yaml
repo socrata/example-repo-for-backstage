@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-service
+  description: |
+    An example service for the backstage implementation
+  links:
+    - title: "README for this example service"
+      url: "https://github.com/socrata/example-repo-for-backstage/blob/main/README.md"
+  annotations:
+    github.com/project-slug: socrata/example-repo-for-backstage
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: data-insights
+  lifecycle: experimental
