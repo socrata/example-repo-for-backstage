@@ -9,7 +9,7 @@ metadata:
       url: "https://github.com/socrata/example-repo-for-backstage/blob/main/README.md"
   annotations:
     github.com/project-slug: socrata/example-repo-for-backstage
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:./mkdocs
 spec:
   type: service
   owner: data-insights
