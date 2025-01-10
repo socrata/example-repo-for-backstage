@@ -3,6 +3,7 @@ docs_dir: '.'
 nav:
   - Home: README.md
   - test: another-readme.md
+  - another: one-more.md
 plugins:
   - techdocs-core
   - same-dir
